@@ -17,11 +17,11 @@ public class ReverseAStringByPreservingItsSpaces {
 		}
 		
 		int j=resultArr.length-1;
-		for(int i=0;i<inputArr.length;i++)
+		for(int i=0; i<inputArr.length; i++)
 		{
-			if(inputArr[i]!=' ')
+			if(inputArr[i]!=' ') 
 			{
-				while(resultArr[j]==' ')
+				if(resultArr[j]==' ')
 				{
 					j--;
 				}
@@ -29,12 +29,11 @@ public class ReverseAStringByPreservingItsSpaces {
 				resultArr[j]=inputArr[i];
 				j--;
 			}
-			
-			
+				
 		}
 		
-		System.out.println("Output is: "+new String(resultArr));
+		System.out.println("Output is :"+new String(resultArr));
 	}
 
 }
-   
+     

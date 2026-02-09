@@ -21,7 +21,7 @@ public class FramesHandling {
 		driver.manage().window().maximize();
 	}
 	
-	@Test
+	@Test  
 	public void framesHandlingTest() {
 		
 		//driver.switchTo().frame(0);

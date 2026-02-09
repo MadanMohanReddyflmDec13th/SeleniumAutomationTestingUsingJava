@@ -11,8 +11,7 @@ public class ContinueDemo1 {
 			if(i==5)
 			{
 				continue;
-				
-			}
+			}	
 			
 			System.out.println(i);
 		}

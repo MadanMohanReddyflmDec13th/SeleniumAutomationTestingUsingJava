@@ -20,6 +20,12 @@ public class ArrayListDemo1 {
 		al.add(1,20);
 		
 		System.out.println(al.size());
+		
+		System.out.println(al);
+		
+		al.add("Hi");
+		
+		System.out.println(al);			
 	}
-
+ 
 }

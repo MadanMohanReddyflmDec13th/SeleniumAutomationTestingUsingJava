@@ -11,7 +11,7 @@ public class CountWordsinaString {
 		{
 			if((s.charAt(i)==' ') && (s.charAt(i+1)!=' '))
 			{
-				count++;
+				count+=1;
 			}
 		}
 

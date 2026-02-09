@@ -20,7 +20,6 @@ public class HashSetDemo1 {
 		
 		System.out.println(hs);
 		
-		
 		//Retriving elements Using for each loop
 		for(String var:hs)
 		{
@@ -47,7 +46,10 @@ public class HashSetDemo1 {
 		System.out.println("Python".hashCode()%16);
 		System.out.println("Selenium".hashCode()%16);
 		System.out.println("TOSCA".hashCode()%16);
-
+		
+		System.out.println(hs.add("Playwright"));
+		System.out.println(hs.size());
+		System.out.println(hs.remove("Playwright"));
+		System.out.println(hs.size()); 
 	}
-
 }

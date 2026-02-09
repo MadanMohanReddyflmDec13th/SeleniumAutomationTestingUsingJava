@@ -1,6 +1,7 @@
 package feb26th;
 
 import java.util.ArrayList;
+import java.util.*;
 
 public class ArrayListDemo2 {
 
@@ -45,6 +46,8 @@ public class ArrayListDemo2 {
 		}
 
 		System.out.println(al.contains("Python"));
+		System.out.println(al.isEmpty());
+		System.out.println(al.subList(0, 4));		
 
 	}
 

@@ -31,7 +31,7 @@ public class ScreenShot1 {
 	public void screenshotTest() throws IOException
 	{
 		
-		File srcFile=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		File srcFile=((TakesScreenshot)(driver)).getScreenshotAs(OutputType.FILE);
 		File destFile =new File("D:\\FLM13thDec\\screenshot111.png");
 		
 		FileUtils.copyFile(srcFile, destFile);

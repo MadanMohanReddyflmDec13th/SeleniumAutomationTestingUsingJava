@@ -28,10 +28,11 @@ public class ReverseAString {
 		System.out.println("Reversed string is: "+rev);
 		*/
 		
-		/* Approach 3
-		StringBuffer s=new StringBuffer("selenium");
-		System.out.println(s.reverse());
-		*/
+	//	/* Approach 3 
+		String st1="Selenium";
+		StringBuffer sb=new StringBuffer(st1);
+		System.out.println(sb.reverse());
+		//*/   
 		
 		/*Approach 4
 		StringBuilder s=new StringBuilder("selenium");

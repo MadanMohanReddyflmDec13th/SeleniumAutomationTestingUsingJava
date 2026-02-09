@@ -22,6 +22,9 @@ public class ArrayListDemo3 {
 		{
 			System.out.println(tempvar);
 		}
+		
+		//Important methods of Collections
+		
 	}
 
 }

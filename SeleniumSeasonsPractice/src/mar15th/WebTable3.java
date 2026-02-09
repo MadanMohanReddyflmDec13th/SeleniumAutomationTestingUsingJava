@@ -27,11 +27,11 @@ public class WebTable3 {
 	public void WorldClockDataDemo()
 	{
 		WebElement table =driver.findElement(By.xpath("//table"));
-		List<WebElement> allRows=	table.findElements(By.tagName("tr"));
+		List<WebElement> allRows = table.findElements(By.tagName("tr"));
 		
 		for(WebElement row:allRows)
 		{
-			List<WebElement> allColumns=row.findElements(By.tagName("td"));
+			List<WebElement> allColumns = row.findElements(By.tagName("td"));
 			
 			for(WebElement col:allColumns)
 			{
@@ -49,3 +49,4 @@ public class WebTable3 {
 		driver.quit();
 	}
 }
+ 

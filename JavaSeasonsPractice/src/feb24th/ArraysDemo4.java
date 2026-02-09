@@ -43,6 +43,16 @@ public class ArraysDemo4 {
 			
 			System.out.println();
 		}
+		
+	
+		for(String[] row:data)
+		{
+		   for(Object col:row)
+		   {
+			   System.out.print(col+ "  ");
+		   }
+		   System.out.println("  ");
+		}
 
 	}
 

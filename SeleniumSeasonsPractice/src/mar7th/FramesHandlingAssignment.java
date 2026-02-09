@@ -47,10 +47,16 @@ public class FramesHandlingAssignment {
 		
 		List<WebElement> allItems=driver.findElements(By.xpath("//span[@class='kt-blocks-info-box-title']"));
 		System.out.println("No of courses: "+allItems.size());
-		
-		for(int i=0;i<allItems.size();i++) {
+		/*
+		for(int i=0;i<allItems.size();i++) 
+		{
 			
 			System.out.println(allItems.get(i).getText());
+		}
+		*/
+		for(WebElement var:allItems)
+		{
+			System.out.println(var.getText());
 		}
 	}
 	

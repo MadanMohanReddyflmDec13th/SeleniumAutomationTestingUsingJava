@@ -15,6 +15,8 @@ public class PropertiesDemo {
 		
 		System.out.println(pro.getProperty("browser"));
 		System.out.println(pro.getProperty("url"));
+		System.out.println(pro.setProperty("url2","https://adactinhotelapp.com/HotelAppBuild2/"));
+		System.out.println(pro.getProperty("url2"));
 		
 	}
 

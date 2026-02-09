@@ -14,7 +14,7 @@ public class HashMapDemo1 {
 		hMap.put(2,"Sam");
 		hMap.put(3,"jim");
 		hMap.put(4,"Raj");
-		
+
 		System.out.println(hMap.keySet());
 		System.out.println(hMap.values());		
 		System.out.println(hMap.containsKey(3));

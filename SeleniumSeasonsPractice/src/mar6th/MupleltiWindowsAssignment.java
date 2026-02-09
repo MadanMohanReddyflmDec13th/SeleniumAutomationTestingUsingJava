@@ -30,7 +30,7 @@ public class MupleltiWindowsAssignment {
 	{
 
 		String homeWindowId = driver.getWindowHandle();
-		driver.findElement(By.xpath("//a[@alt='IRCTCofficial youtube']"));
+		driver.findElement(By.xpath("//a[@alt='IRCTCofficial youtube']")).click();
 
 		Set<String> allWindowIds = driver.getWindowHandles();
 
@@ -43,10 +43,9 @@ public class MupleltiWindowsAssignment {
 			{
 				break;
 			}
-
-			System.out.println(driver.findElement(By.xpath("//div[@id='content' and @dir='auto']")).getText());
-
 		}
+		
+		System.out.println(driver.findElement(By.xpath("//div[@id='content' and @dir='auto']")).getText());
 
 		driver.switchTo().window(homeWindowId);
 
